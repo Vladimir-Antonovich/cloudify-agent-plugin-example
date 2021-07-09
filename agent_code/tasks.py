@@ -20,7 +20,8 @@ def write_to_file(*args, **kwargs):
 #         current_data = str(datetime.now())
 #         ctx.logger.info("test_func: {}".format(current_data))
 #         if ctx.instance.runtime_properties.get('data'):
-#             ctx.logger.info("runtime test_func: {}".format(ctx.instance.runtime_properties.get('data')))
+#             ctx.logger.info("runtime test_func: {}".format(
+#                             ctx.instance.runtime_properties.get('data')))
 #         else:
 #             ctx.logger.info("There is no runtime data")
 #         ctx.instance.runtime_properties['data'] = current_data
@@ -38,7 +39,8 @@ def write_to_file(*args, **kwargs):
 #         current_data = str(datetime.now())
 #         ctx.logger.info("test_func: {}".format(current_data))
 #         if ctx.instance.runtime_properties.get('data'):
-#             ctx.logger.info("runtime test_func: {}".format(ctx.instance.runtime_properties.get('data')))
+#             ctx.logger.info("runtime test_func: {}".format(
+#                             ctx.instance.runtime_properties.get('data')))
 #         else:
 #             ctx.logger.info("There is no runtime data")
 #         ctx.instance.runtime_properties['data'] = current_data
@@ -55,7 +57,8 @@ def write_to_file(*args, **kwargs):
 #         current_data = str(datetime.now())
 #         ctx.logger.info("test_func: {}".format(current_data))
 #         if ctx.instance.runtime_properties.get('data'):
-#             ctx.logger.info("runtime test_func: {}".format(ctx.instance.runtime_properties.get('data')))
+#             ctx.logger.info("runtime test_func: {}".format(
+#                             ctx.instance.runtime_properties.get('data')))
 #         else:
 #             ctx.logger.info("There is no runtime data")
 #         ctx.instance.runtime_properties['data'] = current_data
