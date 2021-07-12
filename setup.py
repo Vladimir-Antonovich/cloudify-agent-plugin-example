@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-    name='cloudify-agent-plugin',
-    version='0.0.1',
+    name='cloudify-agent-plugin-example',
+    version='0.0.2',
     description='Writes a tmp file on agent side',
     packages=['agent_code'],
     install_requires=[
-        "cloudify-plugins-common>=3.3"
+        "cloudify-common>=5.1"
     ]
 )

@@ -29,6 +29,7 @@ node_types:
 plugins:
   example:
     executor: host_agent
-    package_name: 'cloudify-plugin-example'
-    source: cloudify-plugin-example
-    package_version: '0.0.1'
+    package_name: 'cloudify-agent-plugin-example'
+    source: null
+    package_version: '0.0.2'
+    install: true
