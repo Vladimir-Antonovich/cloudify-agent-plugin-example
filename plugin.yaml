@@ -31,5 +31,5 @@ plugins:
     executor: host_agent
     package_name: 'cloudify-agent-plugin-example'
     source: null
-    package_version: '0.0.2'
+    package_version: '0.0.3'
     install: true
