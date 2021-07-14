@@ -25,6 +25,6 @@ setup(
     description='Writes a tmp file on agent side',
     packages=['agent_code'],
     install_requires=[
-        "cloudify-common=>5.1"
+        "cloudify-common>=5.1"
     ]
 )
