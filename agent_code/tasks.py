@@ -9,7 +9,7 @@ import tempfile
 @operation
 def write_to_file(*args, **kwargs):
     with tempfile.NamedTemporaryFile(delete=False) as f:
-        f.write('This simple example gives you the power to do amazing things.\n')
+        f.write(u'This simple example gives you the power to do amazing things.\n')
     ctx.logger.info("File {} created.".format(f.name))
 
 
