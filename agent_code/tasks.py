@@ -3,11 +3,12 @@ from cloudify import ctx
 # from datetime import datetime, timedelta
 # from time import sleep
 from cloudify.decorators import operation
+import tempfile
 
 
 @operation
 def write_to_file(*args, **kwargs):
-    with open('/tmp/cloudify-agent-plugin', 'w') as f:
+    with tempfile.NamedTemporaryFile(delete=False) as f:
         f.write('This simple example gives you the power to do amazing things.\n')
     ctx.logger.info("File {} created.".format(f.name))
 
