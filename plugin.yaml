@@ -30,5 +30,5 @@ plugins:
   example:
     executor: host_agent
     package_name: 'cloudify-agent-plugin-example'
-    source: https://github.com/Vladimir-Antonovich/cloudify-agent-plugin-example/archive/refs/tags/0.0.5.zip
-    package_version: '0.0.5'
+    source: https://github.com/Vladimir-Antonovich/cloudify-agent-plugin-example/archive/refs/tags/0.0.6.zip
+    package_version: '0.0.6'
